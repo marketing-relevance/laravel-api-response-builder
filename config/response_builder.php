@@ -53,7 +53,7 @@ return [
             'pri'     => 0,
         ],
         \Illuminate\Http\Resources\Json\Resource::class => [
-            'handler' => \MarcinOrlowski\ResponseBuilder\Converters\JsonSerializeConverter::class,
+            'handler' => \MarcinOrlowski\ResponseBuilder\Converters\JsonResourceConverter::class,
             // 'key'     => 'item',
             'pri'     => 0,
         ],
