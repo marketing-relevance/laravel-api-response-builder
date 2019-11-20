@@ -52,8 +52,8 @@ return [
             // 'key'     => 'item',
             'pri'     => 0,
         ],
-        \Illuminate\Http\Resources\Json\JsonResource::class => [
-            'handler' => \MarcinOrlowski\ResponseBuilder\Converters\ToArrayConverter::class,
+        \Illuminate\Http\Resources\Json\Resource::class => [
+            'handler' => \MarcinOrlowski\ResponseBuilder\Converters\JsonSerializeConverter::class,
             // 'key'     => 'item',
             'pri'     => 0,
         ],
